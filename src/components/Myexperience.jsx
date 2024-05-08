@@ -54,7 +54,7 @@ function Myexperience() {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center gap-2 text-white bg-[#000111] w-full h-[100vh] ">
+      <div id="myexperience" className="flex flex-col justify-center items-center gap-2 text-white bg-[#000111] w-full max-h-[100vh] ">
         <div className="text-[1.3rem] font-semibold">
           <motion.h1 {...animations.h1}>
             {

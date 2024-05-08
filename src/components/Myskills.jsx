@@ -76,7 +76,7 @@ function Myskills() {
   };
   return (
     <>
-      <div className="flex items-center justify-center gap-[5vw] bg-[#000111] w-full h-[100vh] p-[20vh]">
+      <div id="myskills" className="skill flex items-center justify-center gap-[5vw] bg-[#000111] w-full max-h-[100vh]  p-[20vh]">
         <div className="text-white ">
           <motion.h1 {...animations.h1}>
             {

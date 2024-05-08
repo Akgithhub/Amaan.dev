@@ -2,7 +2,7 @@ import React from 'react'
 
 function Myproject() {
   return (
-    <div>
+    <div id='myprojects' className='text-white h-[100vh] w-full bg-[#000111]'>
       project
     </div>
   )

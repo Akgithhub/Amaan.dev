@@ -84,19 +84,21 @@ function Home() {
 
   return (
     <>
-      <Navbar></Navbar>
-      <div className="bg-[#000111] w-full max-h-[100vh] h-auto flex justify-center gap-[5vw] items-center pt-[20vh] pb-[20vh]">
-        <div className="text-white flex flex-col pt-[10vh] ">
+      <div
+        id="home"
+        className="home bg-[#000111] w-full max-h-[100vh] flex justify-center gap-[5vw] items-center pt-[20vh] pb-[20vh] "
+      >
+        <div className="home-l text-white flex flex-col ">
           <motion.h1 {...animations.h1}>
             {
               <>
-                <h1 className="text-[20px] font-bold">Hello!</h1>
-                <h1 className="text-[3rem] flex gap-3 font-bold">
+                <h1 className="home-hello text-[20px] font-bold">Hello!</h1>
+                <h1 className="hello-name text-[3rem] flex gap-3 font-bold"> 
                   I'm <h1 className="text-[#88ab8e]">Amaan Khan</h1>
                 </h1>
                 <div className="text-[2rem] font-bold">
                   <h1 className="flex gap-3">
-                    I'm{" "}
+                    I'm a{" "}
                     <div className="text-[#88ab8e]">
                       <Typewriter
                         options={{
@@ -223,7 +225,7 @@ function Home() {
           </motion.h1>
         </div>
 
-        <div className="text-white pt-[10vh]">
+        <div className="home-r text-white pt-[10vh]">
           <motion.h1 {...animations1.h1}>
             {
               <>
@@ -239,10 +241,10 @@ function Home() {
           </motion.h1>
         </div>
       </div>
-      <Myskills></Myskills>
+      {/* <Myskills></Myskills>
       <Myexperience></Myexperience>
-      <Myproject></Myproject>
       <Contact></Contact>
+      <Myproject></Myproject> */}
     </>
   );
 }
