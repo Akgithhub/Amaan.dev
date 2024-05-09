@@ -6,6 +6,7 @@ import Myproject from "./components/Myproject";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 
+
 function App() {
   return (
     <>
@@ -19,12 +20,14 @@ function App() {
           <Route path={"/contact"} element={<Contact />}></Route>
         </Routes>
       </Router> */}
+    
       <Navbar></Navbar>
       <Home></Home>
       <Myskills></Myskills>
       <Myexperience></Myexperience>
-      <Myproject></Myproject>
+      {/* <Myproject></Myproject> */}
       <Contact></Contact>
+  
     </>
   );
 }

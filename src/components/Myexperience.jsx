@@ -8,36 +8,10 @@ import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import Typography from "@mui/material/Typography";
 import { animate, motion } from "framer-motion";
+
 function Myexperience() {
-  const animationClientsCount = () => {
-    animate(0, 100, {
-      duration: 5, // Change duration to 2 seconds for slower animation
-      onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
-    });
-  };
-
-  const animationProjectsCount = () => {
-    animate(0, 200, {
-      duration: 5, // Change duration to 2 seconds for slower animation
-      onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
-    });
-  };
-
   const animations = {
     h1: {
-      initial: {
-        y: "-10vh", // Move up by 10% of viewport height initially
-        opacity: 0,
-      },
-      whileInView: {
-        y: 0, // Return to original position
-        opacity: 1,
-        transition: {
-          duration: 2,
-        },
-      },
-    },
-    button: {
       initial: {
         y: "-10vh", // Move up by 10% of viewport height initially
         opacity: 0,
@@ -54,28 +28,25 @@ function Myexperience() {
 
   return (
     <>
-      <div id="myexperience" className="flex flex-col justify-center items-center gap-2 text-white bg-[#000111] w-full max-h-[100vh] ">
-        <div className="text-[1.3rem] font-semibold">
-          <motion.h1 {...animations.h1}>
-            {
-              <>
-                <h1>My Experience</h1>
-              </>
-            }
-          </motion.h1>
-        </div>
-        <div className="text-[3rem] font-bold pb-[3vh]">
-          <motion.h1 {...animations.h1}>
-            {
-              <>
-                <h1 className="flex gap-3">
-                  Where <h1 className="text-[#88ab8e] flex">I have worked</h1>
-                </h1>
-              </>
-            }
-          </motion.h1>
-        </div>
-        <div>
+      <div
+        id="myexperience"
+        className="experience flex flex-col justify-center items-center gap-2 text-white bg-[#000111] w-full max-h-[100vh] p-8 md:p-16 lg:p-24 sm:mt-9"
+      >
+<div class="text-lg md:text-xl lg:text-2xl font-semibold md:mt-0 mt-[30vh]">
+  <motion.h1 {...animations.h1}>
+    <h1>My Experience</h1>
+  </motion.h1>
+</div>
+<div class="text-xl md:text-3xl lg:text-4xl font-bold pb-3">
+  <motion.h1 {...animations.h1}>
+    <h1 class="flex gap-3">
+      Where <span class="text-[#88ab8e]">I have worked</span>
+    </h1>
+  </motion.h1>
+</div>
+
+
+        <div className="w-full">
           <Timeline position="alternate">
             <TimelineItem>
               <TimelineOppositeContent
@@ -89,17 +60,20 @@ function Myexperience() {
               </TimelineOppositeContent>
               <TimelineSeparator>
                 <TimelineConnector />
-                <TimelineDot className="h-[6vh] w-[3vw]"></TimelineDot>
+                <TimelineDot className="h-12vw md:h-10vh w-12vw md:w-10vw"></TimelineDot>
+
+
+
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent sx={{ py: "12px", px: 2 }}>
                 <Typography variant="h6" component="span">
                   <div className="text-[2rem] font-semibold flex gap-2">
-                    Freelance <h1 className="text-[#88ab8e]">Project</h1>
+                    Freelance <span className="text-[#88ab8e]">Project</span>
                   </div>
                 </Typography>
                 <Typography>
-                  <div className="text-[1.1rem] text-[#dcdcdc] bg-[#191919] border-2 border-y-white border-x-black font-medium rounded-xl p-6 max-w-[50vw]">
+                  <div className="text-[1.1rem] text-[#dcdcdc] bg-[#191919] border-2 border-y-white border-x-black font-medium rounded-xl p-6 max-w-[50vw] sm:max-w-[70vw] lg:max-w-[80vw]">
                     In my freelance role as a frontend developer, I leveraged my
                     expertise in HTML, CSS, JavaScript, React.js, Tailwind CSS,
                     and Bootstrap to deliver high-quality and responsive user
@@ -120,17 +94,17 @@ function Myexperience() {
               </TimelineOppositeContent>
               <TimelineSeparator>
                 <TimelineConnector />
-                <TimelineDot className="h-[6vh] w-[3vw]"></TimelineDot>
+                <TimelineDot className="h-12vw md:h-10vh w-12vw md:w-10vw"></TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent sx={{ py: "12px", px: 2 }}>
                 <Typography>
                   <div className="text-[2rem] font-semibold flex gap-2">
-                    <h1 className="text-[#88ab8e]">College</h1> Student
+                    <span className="text-[#88ab8e]">College</span> Student
                   </div>
                 </Typography>
                 <Typography>
-                  <div className="text-[1rem] text-start text-[#dcdcdc] bg-[#191919] border-2 border-y-white border-x-black font-medium rounded-xl p-6 max-w-[50vw] ">
+                  <div className="text-[1rem] text-start text-[#dcdcdc] bg-[#191919] border-2 border-y-white border-x-black font-medium rounded-xl p-6 max-w-[50vw] sm:max-w-[70vw] lg:max-w-[80vw]">
                     I'm a passionate second-year BCA student diving deep into
                     Full Stack Web Development. With skills spanning front-end
                     to back-end technologies, I create seamless digital
@@ -141,36 +115,6 @@ function Myexperience() {
                 </Typography>
               </TimelineContent>
             </TimelineItem>
-            {/* <TimelineItem>
-              <TimelineSeparator>
-                <TimelineConnector />
-                <TimelineDot color="primary" variant="outlined">
-                  <HotelIcon />
-                </TimelineDot>
-                <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
-              </TimelineSeparator>
-              <TimelineContent sx={{ py: "12px", px: 2 }}>
-                <Typography variant="h6" component="span">
-                  Sleep
-                </Typography>
-                <Typography>Because you need rest</Typography>
-              </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-              <TimelineSeparator>
-                <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
-                <TimelineDot color="secondary">
-                  <RepeatIcon />
-                </TimelineDot>
-                <TimelineConnector />
-              </TimelineSeparator>
-              <TimelineContent sx={{ py: "12px", px: 2 }}>
-                <Typography variant="h6" component="span">
-                  Repeat
-                </Typography>
-                <Typography>Because this is the life you love!</Typography>
-              </TimelineContent>
-            </TimelineItem> */}
           </Timeline>
         </div>
       </div>

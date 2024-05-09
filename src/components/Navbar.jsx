@@ -15,7 +15,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="flex w-full h-[8vh] bg-[#000111] justify-around items-center fixed z-10 ">
+      <div className="navbar flex w-full h-[8vh] bg-[#000111] justify-around items-center fixed z-10  ">
         <h1 className="text-white text-[25px] font-bold flex ">
           Amaan Khan <h1 className="text-[#88ab8e]"> .Dev</h1>
         </h1>
