@@ -78,7 +78,7 @@ function Myskills() {
     <>
       <div
         id="myskills"
-        className="flex flex-col lg:flex-row items-center justify-center lg:items-center gap-[5vw] bg-[#000111] w-full p-[20vh]"
+        className="bg-[#000111] w-full flex flex-col gap-8 lg:flex-row justify-center items-center py-20 lg:p-[15vh] lg:gap-[7vw]"
       >
         <div className="text-white">
           <motion.h1 {...animations.h1}>
@@ -273,7 +273,7 @@ function Myskills() {
             }
           </motion.h1>
         </div>
-        <div className="text-white max-w-[50vw] px-4 md:px-0 md:mr-8 mt-8 md:mt-10 text-start gap-y-1">
+        <div className="text-white max-w-xl px-4 md:px-0 md:mr-8 lg:max-w-[80vw]">
           <motion.h1 {...animations1.h1}>
             <h1 className="text-[1.5rem] md:text-[1.8rem] lg:text-[2rem] font-semibold">
               MY SKILLS
@@ -296,13 +296,11 @@ function Myskills() {
                 }}
               />
             </h1>
-          </motion.h1>
+         
           <br />
 
-          <div className="flex flex-col gap-8  max-w-[50vw] mx-auto text-[#dcdcdc] text-[1rem] md:text-[1.2rem] lg:text-[1.3rem] ">
-            <div className="w-full text-left">
-              {" "}
-              {/* Align text to the left */}
+          <div className=" text-[#dcdcdc] pt-8 pb-4 md:pb-8 max-w-xl mg:w-[90vw]">
+            <div className="leading-7 md:leading-8">
               <h1>
                 As an adept developer, I possess a rich skill like ,In frontend
                 technologies, I am well-versed in HTML, CSS, and JavaScript, My
@@ -313,9 +311,7 @@ function Myskills() {
                 development and ensure UI consistency across projects.
               </h1>
             </div>
-            <div className="w-full text-left">
-              {" "}
-              {/* Align text to the left */}
+            <div className="leading-7 md:leading-8">
               <h1>
                 On the backend, I excel in Node.js and Express.js, crafting
                 server-side applications that are not only high-performing but
@@ -323,9 +319,7 @@ function Myskills() {
                 MongoDB, a leading NoSQL database.
               </h1>
             </div>
-            <div className="w-full text-left">
-              {" "}
-              {/* Align text to the left */}
+            <div className="leading-7 md:leading-8">
               <h1>
                 In the realm of DevOps, I know tools like Git and GitHub for
                 version control, enabling efficient collaboration and code
@@ -333,6 +327,7 @@ function Myskills() {
               </h1>
             </div>
           </div>
+          </motion.h1>
         </div>
       </div>
     </>
