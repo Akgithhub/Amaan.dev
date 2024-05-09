@@ -32,19 +32,18 @@ function Myexperience() {
         id="myexperience"
         className="experience flex flex-col justify-center items-center gap-2 text-white bg-[#000111] w-full max-h-[100vh] p-8 md:p-16 lg:p-24 sm:mt-9"
       >
-<div class="text-lg md:text-xl lg:text-2xl font-semibold md:mt-0 mt-[30vh]">
-  <motion.h1 {...animations.h1}>
-    <h1>My Experience</h1>
-  </motion.h1>
-</div>
-<div class="text-xl md:text-3xl lg:text-4xl font-bold pb-3">
-  <motion.h1 {...animations.h1}>
-    <h1 class="flex gap-3">
-      Where <span class="text-[#88ab8e]">I have worked</span>
-    </h1>
-  </motion.h1>
-</div>
-
+        <div class="text-lg md:text-xl lg:text-2xl font-semibold md:mt-0 mt-[30vh]">
+          <motion.h1 {...animations.h1}>
+            <h1>My Experience</h1>
+          </motion.h1>
+        </div>
+        <div class="text-xl md:text-3xl lg:text-4xl font-bold pb-3">
+          <motion.h1 {...animations.h1}>
+            <h1 class="flex gap-3">
+              Where <span class="text-[#88ab8e]">I have worked</span>
+            </h1>
+          </motion.h1>
+        </div>
 
         <div className="w-full">
           <Timeline position="alternate">
@@ -62,8 +61,6 @@ function Myexperience() {
                 <TimelineConnector />
                 <TimelineDot className="h-12vw md:h-10vh w-12vw md:w-10vw"></TimelineDot>
 
-
-
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent sx={{ py: "12px", px: 2 }}>
@@ -73,7 +70,7 @@ function Myexperience() {
                   </div>
                 </Typography>
                 <Typography>
-                  <div className="text-[1.1rem] text-[#dcdcdc] bg-[#191919] border-2 border-y-white border-x-black font-medium rounded-xl p-6 max-w-[50vw] sm:max-w-[70vw] lg:max-w-[80vw]">
+                  <div className="text-[1.1rem] text-[#dcdcdc] bg-[#191919] border-2 border-y-white border-x-black font-medium rounded-xl p-6 max-w-[50vw] sm:max-w-[70vw] lg:max-w-[50vw]">
                     In my freelance role as a frontend developer, I leveraged my
                     expertise in HTML, CSS, JavaScript, React.js, Tailwind CSS,
                     and Bootstrap to deliver high-quality and responsive user
