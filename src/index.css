@@ -51,23 +51,22 @@ body {
 }
 @media screen and (max-width: 650px) {
   .experience {
-    margin-top: 30vh;
+    margin-top: 7vh;
   }
 }
 
 @media screen and (max-width: 730px) {
   .contact {
-  margin-top: 20vh;
+    margin-top: 40vh;
   }
-  .ex{
+  .ex {
     text-align: left;
     max-width: 50vw;
   }
 }
 @media screen and (max-width: 380px) {
   .contact {
-  margin-top: 39vh;
-
+    margin-top: 25vh;
   }
 }
 
