@@ -1,4 +1,3 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Myexperience from "./components/Myexperience";
 import Myskills from "./components/Myskills";
@@ -25,7 +24,7 @@ function App() {
       <Home></Home>
       <Myskills></Myskills>
       <Myexperience></Myexperience>
-      {/* <Myproject></Myproject> */}
+      <Myproject></Myproject>
       <Contact></Contact>
   
     </>

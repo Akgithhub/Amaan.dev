@@ -53,6 +53,10 @@ body {
   .experience {
     margin-top: 7vh;
   }
+  /* .p-img{
+    height: 27vh;
+    width: 70vw;
+  } */
 }
 
 @media screen and (max-width: 730px) {
@@ -75,8 +79,24 @@ body {
     margin-top: 7vh;
     height: 50vh;
   }
+  /* .p-img{
+    height: 35vh;
+    width: 40vw;
+    margin-right: 50vw;
+  } */
 
 }
+@media screen and (max-width: 690px) {
+  .projects{
+    margin-top: 50vh;
+    
+  }
+  .card-data{
+    max-width: 80vw;
+  }
+
+}
+
 
 /* For webkit-based browsers */
 /* Width and height of scrollbar */
