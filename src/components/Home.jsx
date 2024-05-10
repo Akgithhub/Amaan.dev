@@ -180,7 +180,7 @@ function Home() {
                 <img
                   src={pic}
                   alt="My Image"
-                  className="img-me rounded-full h-auto md:h-[50vh] w-full md:w-auto md:pt-[5vh]"
+                  className="img-me rounded-full h-auto md:h-[50vh] w-full md:w-auto md:pt-[5vh] object-cover"
                 />
               </div>
             </>

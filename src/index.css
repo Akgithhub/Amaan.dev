@@ -70,6 +70,14 @@ body {
   }
 }
 
+@media screen and (max-width: 770px) {
+  .img-me{
+    margin-top: 7vh;
+    height: 50vh;
+  }
+
+}
+
 /* For webkit-based browsers */
 /* Width and height of scrollbar */
 ::-webkit-scrollbar {
