@@ -1,5 +1,7 @@
 import React from "react";
 import pic from "../assets/2.jpg";
+import pic1 from "../assets/3.jpg";
+
 import { animate, motion } from "framer-motion";
 function Myproject() {
   const animations = {
@@ -109,16 +111,19 @@ function Myproject() {
                       </div>
                     </div>
                     <h1 className="card-data max-w-[34vw] leading-8 mt-[2vh] font-semibold">
-                      Your real-time companion for tracking crypto currencies.
-                      Powered by React and adorned with sleek UI components from
-                      Chakra UI and Emotion Styled, Xryptyo delivers live
-                      updates on crypto values using Axios for seamless data
-                      fetching. With interactive charts powered by Chart.js,
-                      stay ahead in the crypto game effortlessly.
+                      📈 Meet your real-time crypto companion, Xryptyo! 💰
+                      Harnessing the power of React and enhanced with stylish UI
+                      components from Chakra UI and Emotion Styled, Xryptyo
+                      keeps you updated with live cryptocurrency values. 🔍
+                      Utilizing Axios for seamless data fetching and Chart.js
+                      for interactive charts, stay ahead in the crypto game
+                      effortlessly. 🚀
                     </h1>
+                    <a href="https://xcrypto-hazel.vercel.app/">
                     <button className="mt-[2vh] bg-[#111827] border-2 border-[#88ab8e] p-4 rounded-2xl text-[#88ab8e] font-medium">
                       Visit Website
                     </button>
+                    </a>
                   </>
                 }
               </motion.h1>
@@ -143,7 +148,7 @@ function Myproject() {
                 {
                   <>
                     <img
-                      src={pic}
+                      src={pic1}
                       alt="WEBSITE IMAGE"
                       className="w-[300px] lg:w-[35vw] xl:w-[30vw] mx-auto mr-4 rounded-xl"
                     />
@@ -156,8 +161,8 @@ function Myproject() {
                 {
                   <>
                     <h1 className="flex gap-10 text-[1.8rem] font-bold lg:flex-row flex-col">
-                      Xcrypto: Real Time Crypto Tracker Application{" "}
-                      <a href="https://github.com/Akgithhub/XCRYPTO-.git">
+                      ChatKat: Real Time Chat Web Application{" "}
+                      <a href="https://github.com/Akgithhub/Real-Time-Chat-App.git">
                         {" "}
                         <svg
                           className=""
@@ -178,23 +183,24 @@ function Myproject() {
                         React js
                       </div>
                       <div className="bg-[#88ab8e] p-3 rounded-xl">
-                        Chakra UI React
+                        Feather js
                       </div>
                       <div className="bg-[#88ab8e] p-3 rounded-xl">
-                        Chart.js
+                        Appwrite
                       </div>
-                      <div className="bg-[#88ab8e] p-3 rounded-xl">Axios</div>
+                      {/* <div className="bg-[#88ab8e] p-3 rounded-xl">Axios</div>
                       <div className="bg-[#88ab8e] p-3 rounded-xl">
                         Cryto API
-                      </div>
+                      </div> */}
                     </div>
                     <h1 className="card-data max-w-[34vw] leading-8 mt-[2vh] font-semibold">
-                      Your real-time companion for tracking crypto currencies.
-                      Powered by React and adorned with sleek UI components from
-                      Chakra UI and Emotion Styled, Xryptyo delivers live
-                      updates on crypto values using Axios for seamless data
-                      fetching. With interactive charts powered by Chart.js,
-                      stay ahead in the crypto game effortlessly.
+                      ⚡️ Dive into instantaneous communication with my
+                      real-time chat web app! 🌐 Built using React and adorned
+                      with Feather icons for a delightful user interface. 🎨
+                      Appwrite backend ensures secure data management, while
+                      React Router DOM guarantees seamless navigation. Join the
+                      conversation now and experience connectivity like never
+                      before! 💬
                     </h1>
                     <button className="mt-[2vh] bg-[#111827] border-2 border-[#88ab8e] p-4 rounded-2xl text-[#88ab8e] font-medium">
                       Visit Website
@@ -204,7 +210,7 @@ function Myproject() {
               </motion.h1>
             </div>
           </div>
-          <div className="card flex flex-col lg:flex-row gap-[10vh] lg:gap-[5vw] lg:mb-[10vh] sm:gap-[8vh] ">
+          {/* <div className="card flex flex-col lg:flex-row gap-[10vh] lg:gap-[5vw] lg:mb-[10vh] sm:gap-[8vh] ">
             <div className="data">
               <motion.h1 {...animations1.h1}>
                 {
@@ -270,7 +276,7 @@ function Myproject() {
                 }
               </motion.h1>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
