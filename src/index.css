@@ -79,11 +79,7 @@ body {
     margin-top: 7vh;
     height: 50vh;
   }
-  /* .p-img{
-    height: 35vh;
-    width: 40vw;
-    margin-right: 50vw;
-  } */
+
 }
 @media screen and (max-width: 690px) {
   .projects {
@@ -109,7 +105,8 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #88ab8e; /* Green */
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(136,171,142,1) 58%, rgba(0,255,34,1) 99%);
   border-radius: 100%;
 }
 
