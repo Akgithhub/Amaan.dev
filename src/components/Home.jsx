@@ -4,8 +4,20 @@ import Typewriter from "typewriter-effect";
 import { animate, motion } from "framer-motion";
 import pic from "../assets/1.jpg";
 import { Tooltip } from "@chakra-ui/react";
+import { Tilt } from "react-tilt";
 
 function Home() {
+  const defaultOptions = {
+    reverse:        false,  // reverse the tilt direction
+    max:            35,     // max tilt rotation (degrees)
+    perspective:    1000,   // Transform perspective, the lower the more extreme the tilt gets.
+    scale:          0.3,    // 2 = 200%, 1.5 = 150%, etc..
+    speed:         100,   // Speed of the enter/exit transition
+    transition:     true,   // Set a transition on enter/exit.
+    axis:           null,   // What axis should be disabled. Can be X or Y.
+    reset:          true,    // If the tilt effect has to be reset on exit.
+    easing:         "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
+  }
   const animations = {
     h1: {
       initial: {
@@ -176,13 +188,13 @@ function Home() {
         <motion.div className="home-r text-white mt-8 md:mt-0">
           <motion.h1 {...animations1.h1}>
             <>
-              <div>
+              <Tilt options={defaultOptions}>
                 <img
                   src={pic}
                   alt="My Image"
                   className="img-me rounded-full h-auto md:h-[50vh] w-full md:w-auto md:pt-[5vh] object-cover"
                 />
-              </div>
+              </Tilt>
             </>
           </motion.h1>
         </motion.div>
