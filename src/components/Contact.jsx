@@ -12,7 +12,6 @@ function Contact() {
     formState: { errors },
   } = useForm();
 
-
   const animations = {
     h1: {
       initial: {
@@ -103,12 +102,12 @@ function Contact() {
               <input
                 type="submit"
                 disabled={state.submitting}
-                className="text-white bg-[#88ab8e] border-2 border-white rounded-xl font-medium p-2 pl-3 pr-3"
+                className="text-white bg-[#88ab8e] border-2 border-white rounded-xl font-medium p-2 pl-3 pr-3 hover:scale-110 transition-all"
               />
             </form>
           </div>
           <div className="flex justify-center items-center pt-8 gap-10">
-            <div>
+            <div className="hover:scale-125 transition-all">
               <a href="https://www.linkedin.com/in/web-devloper-amaan-khan">
                 <svg
                   stroke="currentColor"
@@ -123,7 +122,7 @@ function Contact() {
                 </svg>
               </a>
             </div>
-            <div>
+            <div className="hover:scale-125 transition-all">
               <a href="https://github.com/Akgithhub">
                 <svg
                   stroke="currentColor"

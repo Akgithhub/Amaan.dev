@@ -94,7 +94,7 @@ function Myproject() {
                       <a href="https://github.com/Akgithhub/XCRYPTO-.git">
                         {" "}
                         <svg
-                          className=""
+                          className="hover:scale-125 transition-all"
                           stroke="currentcolor"
                           fill="#88ab8e"
                           stroke-width="0"
@@ -108,17 +108,17 @@ function Myproject() {
                       </a>
                     </h1>
                     <div className="flex flex-wrap gap-6 mt-[2vh] font-medium text-[1rem]">
-                      <div className="bg-[#88ab8e] p-3 rounded-xl">
+                      <div className="bg-[#88ab8e] p-3 rounded-xl hover:scale-110 transition-all">
                         React js
                       </div>
-                      <div className="bg-[#88ab8e] p-3 rounded-xl">
+                      <div className="bg-[#88ab8e] p-3 rounded-xl hover:scale-110 transition-all">
                         Chakra UI React
                       </div>
-                      <div className="bg-[#88ab8e] p-3 rounded-xl">
+                      <div className="bg-[#88ab8e] p-3 rounded-xl hover:scale-110 transition-all">
                         Chart.js
                       </div>
-                      <div className="bg-[#88ab8e] p-3 rounded-xl">Axios</div>
-                      <div className="bg-[#88ab8e] p-3 rounded-xl">
+                      <div className="bg-[#88ab8e] p-3 rounded-xl hover:scale-110 transition-all">Axios</div>
+                      <div className="bg-[#88ab8e] p-3 rounded-xl hover:scale-110 transition-all">
                         Tailwind
                       </div>
                     </div>
@@ -132,7 +132,7 @@ function Myproject() {
                       effortlessly. 🚀
                     </h1>
                     <a href="https://xcrypto-hazel.vercel.app/">
-                    <button className="mt-[2vh] bg-[#111827] border-2 border-[#88ab8e] p-4 rounded-2xl text-[#88ab8e] font-medium">
+                    <button className="mt-[2vh] bg-[#111827] border-2 border-[#88ab8e] p-4 rounded-2xl text-[#88ab8e] font-medium hover:scale-110 transition-all">
                       Visit Website
                     </button>
                     </a>
@@ -181,7 +181,7 @@ function Myproject() {
                       <a href="https://github.com/Akgithhub/Real-Time-Chat-App.git">
                         {" "}
                         <svg
-                          className=""
+                          className="hover:scale-125 transition-all"
                           stroke="currentcolor"
                           fill="#88ab8e"
                           stroke-width="0"
@@ -195,13 +195,13 @@ function Myproject() {
                       </a>
                     </h1>
                     <div className="flex flex-wrap gap-6 mt-[2vh] font-medium text-[1rem]">
-                      <div className="bg-[#88ab8e] p-3 rounded-xl">
+                      <div className="bg-[#88ab8e] p-3 rounded-xl hover:scale-110 transition-all">
                         React js
                       </div>
-                      <div className="bg-[#88ab8e] p-3 rounded-xl">
+                      <div className="bg-[#88ab8e] p-3 rounded-xl hover:scale-110 transition-all">
                         Feather js
                       </div>
-                      <div className="bg-[#88ab8e] p-3 rounded-xl">
+                      <div className="bg-[#88ab8e] p-3 rounded-xl hover:scale-110 transition-all">
                         Appwrite
                       </div>
                       {/* <div className="bg-[#88ab8e] p-3 rounded-xl">Axios</div>
@@ -218,7 +218,7 @@ function Myproject() {
                       conversation now and experience connectivity like never
                       before! 💬
                     </h1>
-                    <button className="mt-[2vh] bg-[#111827] border-2 border-[#88ab8e] p-4 rounded-2xl text-[#88ab8e] font-medium">
+                    <button className="mt-[2vh] bg-[#111827] border-2 border-[#88ab8e] p-4 rounded-2xl text-[#88ab8e] font-medium hover:scale-110 transition-all">
                       Visit Website
                     </button>
                   </>

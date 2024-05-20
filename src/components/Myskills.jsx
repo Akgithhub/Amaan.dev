@@ -85,7 +85,7 @@ function Myskills() {
             {
               <>
                 <div className="flex gap-6">
-                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white">
+                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white hover:scale-110 transition-all">
                     <h1>
                       <svg
                         stroke="currentColor"
@@ -102,7 +102,7 @@ function Myskills() {
                     </h1>
                     <h1 className="font-semibold text-[1.3rem]">React Js</h1>
                   </div>
-                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white">
+                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white hover:scale-110 transition-all">
                     <h1>
                       <svg
                         stroke="currentColor"
@@ -119,7 +119,7 @@ function Myskills() {
                     </h1>
                     <h1 className="font-semibold text-[1.3rem]">HTML</h1>
                   </div>
-                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white">
+                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white hover:scale-110 transition-all">
                     <h1>
                       <svg
                         stroke="currentColor"
@@ -139,7 +139,7 @@ function Myskills() {
                 </div>
                 <br />
                 <div className="flex gap-6">
-                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white">
+                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white hover:scale-110 transition-all">
                     <h1>
                       <div color="blue" class="sc-iBdnpw gfwXEP">
                         <svg
@@ -159,7 +159,7 @@ function Myskills() {
                     </h1>
                     <h1 className="font-semibold text-[1.3rem]">Java Script</h1>
                   </div>
-                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white">
+                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white hover:scale-110 transition-all">
                     <h1>
                       <svg
                         stroke="currentColor"
@@ -176,7 +176,7 @@ function Myskills() {
                     </h1>
                     <h1 className="font-semibold text-[1.3rem]">Node Js</h1>
                   </div>
-                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white">
+                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white hover:scale-110 transition-all">
                     <h1>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -198,7 +198,7 @@ function Myskills() {
                 </div>
                 <br />
                 <div className="flex gap-6">
-                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white">
+                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white hover:scale-110 transition-all">
                     <h1>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -217,7 +217,7 @@ function Myskills() {
                     </h1>
                     <h1 className="font-semibold text-[1.3rem]">Python</h1>
                   </div>
-                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white">
+                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white hover:scale-110 transition-all">
                     <h1>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -236,7 +236,7 @@ function Myskills() {
                     </h1>
                     <h1 className="font-semibold text-[1.3rem]">C++</h1>
                   </div>
-                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white">
+                  <div className="flex flex-col items-center justify-center bg-gray-900 h-40 w-32 rounded-lg border-2 border-white hover:scale-110 transition-all">
                     <h1>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

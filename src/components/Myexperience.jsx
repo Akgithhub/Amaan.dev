@@ -70,7 +70,7 @@ function Myexperience() {
                   </div>
                 </Typography>
                 <Typography>
-                  <div className="text-[1.1rem] text-[#dcdcdc] bg-[#191919] border-2 border-y-white border-x-black font-medium rounded-xl p-6 max-w-[60vw] max-h-[50vh] overflow-y-auto lg:max-w-[30vw] lg:max-h-[30vh]">
+                  <div className="text-[1.1rem] hover:-translate-y-2 transition-all text-[#dcdcdc] bg-[#191919] border-2 border-y-white border-x-black font-medium rounded-xl p-6 max-w-[60vw] max-h-[50vh] overflow-y-auto lg:max-w-[30vw] lg:max-h-[30vh]">
                     In my freelance role as a frontend developer, I leveraged my
                     expertise in HTML, CSS, JavaScript, React.js, Tailwind CSS,
                     and Bootstrap to deliver high-quality and responsive user
@@ -101,7 +101,7 @@ function Myexperience() {
                   </div>
                 </Typography>
                 <Typography>
-                  <div className="text-[1rem] text-start text-[#dcdcdc] bg-[#191919] border-2 border-y-white border-x-black font-medium rounded-xl p-6 max-w-[60vw] max-h-[50vh] overflow-y-auto sm:max-w-[70vw] lg:max-w-[40vw]">
+                  <div className="text-[1rem] hover:-translate-y-2 transition-all text-start text-[#dcdcdc] bg-[#191919] border-2 border-y-white border-x-black font-medium rounded-xl p-6 max-w-[60vw] max-h-[50vh] overflow-y-auto sm:max-w-[70vw] lg:max-w-[40vw]">
                     I'm a passionate second-year BCA student diving deep into
                     Full Stack Web Development. With skills spanning front-end
                     to back-end technologies, I create seamless digital
