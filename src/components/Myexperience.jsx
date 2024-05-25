@@ -112,6 +112,42 @@ function Myexperience() {
                 </Typography>
               </TimelineContent>
             </TimelineItem>
+            <TimelineItem>
+              <TimelineOppositeContent
+                sx={{ m: "auto 0" }}
+                align="right"
+                variant="body2"
+                color="#b3b3b8"
+                fontWeight={"bold"}
+              >
+                May 2024 - June 2024
+              </TimelineOppositeContent>
+              <TimelineSeparator>
+                <TimelineConnector />
+                <TimelineDot className="h-12vw md:h-10vh w-12vw md:w-10vw"></TimelineDot>
+
+                <TimelineConnector />
+              </TimelineSeparator>
+              <TimelineContent sx={{ py: "12px", px: 2 }}>
+                <Typography variant="h6" component="span">
+                  <div className="text-[2rem] font-semibold flex gap-2">
+                    Internship{" "}
+                    <span className="text-[#88ab8e]"> at Afame Tech</span>
+                  </div>
+                </Typography>
+                <Typography>
+                  <div className="text-[1.1rem] hover:-translate-y-2 transition-all text-[#dcdcdc] bg-[#191919] border-2 border-y-white border-x-black font-medium rounded-xl p-6 max-w-[60vw] max-h-[50vh] overflow-y-auto lg:max-w-[30vw] lg:max-h-[30vh]">
+                    As a web devloper intren at Afame Technologies, I
+                    contributed to building responsive web applications using
+                    HTML,CSS JavaScript, and React.I assisted in backend
+                    integration with Node.js and express debugged and optimized
+                    code,and ensured cross-browser compatibility. I enchansed my
+                    Teamwork and communication skills while gaining valuable
+                    industry experiences.
+                  </div>
+                </Typography>
+              </TimelineContent>
+            </TimelineItem>
           </Timeline>
         </div>
       </div>
