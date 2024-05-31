@@ -41,22 +41,12 @@ body {
 }
 
 /* CSS for screens smaller than or equal to 600px */
-@media screen and (max-width: 950px) {
-  /* .home {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-  } */
-}
+/* @media screen and (max-width: 950px) {
+} */
 @media screen and (max-width: 650px) {
   .experience {
-    margin-top: 7vh;
+    margin-top: 40vh;
   }
-  /* .p-img{
-    height: 27vh;
-    width: 70vw;
-  } */
 }
 
 @media screen and (max-width: 730px) {
@@ -82,7 +72,7 @@ body {
 }
 @media screen and (max-width: 690px) {
   .projects {
-    margin-top: 50vh;
+    margin-top: 90vh;
   }
   .card-data {
     max-width: 80vw;
