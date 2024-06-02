@@ -177,7 +177,7 @@ function Home() {
                 </Tooltip>
               </div>
               <div className="r-btn bg-white text-gray-700 text-lg md:text-xl mt-5 rounded-full text-center border-black border-2 font-semibold p-1 hover:bg-slate-600 hover:text-white">
-                <a href="https://drive.google.com/file/d/1pcVmENvhqwegh01MAEL3Z1Qw-mCFRj50/view">
+                <a href="https://drive.google.com/file/d/1RLFyiN_q00zTNk59bxJ8vd5KlqhJM5oM/view?usp=drive_link">
                   <button>Resume</button>
                 </a>
               </div>
