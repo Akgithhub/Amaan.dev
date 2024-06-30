@@ -148,6 +148,43 @@ function Myexperience() {
                 </Typography>
               </TimelineContent>
             </TimelineItem>
+            <TimelineItem>
+              <TimelineOppositeContent
+                sx={{ m: "auto 0" }}
+                variant="body2"
+                color="#b3b3b8"
+                fontWeight={"bold"}
+              >
+                June 2024 - July 2024
+              </TimelineOppositeContent>
+              <TimelineSeparator>
+                <TimelineConnector />
+                <TimelineDot className="h-12vw md:h-10vh w-12vw md:w-10vw"></TimelineDot>
+                <TimelineConnector />
+              </TimelineSeparator>
+              <TimelineContent sx={{ py: "12px", px: 2 }}>
+                <Typography>
+                  <div className="text-[2rem] font-semibold flex gap-2">
+                    <span className="text-[#88ab8e]">Internship</span> at
+                    DigiGlobe Solutions
+                  </div>
+                </Typography>
+                <Typography>
+                  <div className="text-[1rem] hover:-translate-y-2 transition-all text-start text-[#dcdcdc] bg-[#191919] border-2 border-y-white border-x-black font-medium rounded-xl p-6 max-w-[60vw] max-h-[50vh] overflow-y-auto sm:max-w-[70vw] lg:max-w-[40vw]">
+                    As a Frontend Developer Intern at DigiGlobe Solutions, I
+                    collaborated closely with senior developers to translate
+                    design concepts into responsive web applications using HTML,
+                    CSS, and JavaScript frameworks. During this internship, I
+                    gained valuable hands-on experience in frontend development
+                    practices, participated in code reviews, and assisted in
+                    optimizing website performance.Successfully delivered
+                    project milestones while adhering to best practices and
+                    contributing to a dynamic team environment focused on
+                    innovation and growth.
+                  </div>
+                </Typography>
+              </TimelineContent>
+            </TimelineItem>
           </Timeline>
         </div>
       </div>
